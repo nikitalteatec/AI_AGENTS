@@ -1,4 +1,4 @@
-// Jenkinsfile.windows
+// Jenkinsfile (Windows build agents)
 // Declarative Jenkins pipeline for Windows build agents
 
 
@@ -79,7 +79,7 @@ pipeline {
         allowMissing: true,
         alwaysLinkToLastBuild: true,
         keepAll: true,
-        reportDir: 'reports',
+        reportDir: "reports/html",
         reportFiles: 'index.html',
         reportName: 'Playwright HTML Report'
       ])

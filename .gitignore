@@ -6,9 +6,10 @@
 #  Dependencies 
 node_modules/
 
-
 # Environment & secrets 
 .env
+.env.*
+!.env.example
 
 #  Playwright test artifacts 
 /test-results/
@@ -29,3 +30,8 @@ node_modules/
 .playwright-cli/
 .playwright-mcp/
 
+# OS / logs
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
