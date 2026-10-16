@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test.describe('Five core customer operations', () => {
+test.describe('@regression Five core customer operations', () => {
   test('Add, review, remove, and continue shopping from the cart', async ({ page }) => {
     // 1. In a fresh session sign in as standard_user, add Sauce Labs Backpack.
     await page.goto('https://www.saucedemo.com');

@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test.describe('Five core customer operations', () => {
+test.describe('@regression Five core customer operations', () => {
   test('Sign in with valid credentials and handle rejected/missing credentials', async ({ page }) => {
     // 1. Start from the logged-out login page in a fresh session. Submit the form with both username and password blank.
     await page.goto('https://www.saucedemo.com');

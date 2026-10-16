@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test.describe('Five core customer operations', () => {
+test.describe('@regression Five core customer operations', () => {
   test('Sign out and verify the authenticated session ends', async ({ page }) => {
     // 1. From a fresh standard_user authenticated session, open menu and select Logout.
     await page.goto('https://www.saucedemo.com');
